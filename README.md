@@ -1,13 +1,21 @@
 Steps to init the project:
 
-Clone the repo:
+1) Clone the repo:
+```
 git clone https://github.com/ElitsaKehayova/test-system
+```
 
-Redirect to project directory
+2) Redirect to project directory
+```
 cd test-system
+```
 
-Install dependencies
+3) Install dependencies
+```
 npm install
+```
 
-Start the project
+4) Start the project
+```
 npm start
+```
