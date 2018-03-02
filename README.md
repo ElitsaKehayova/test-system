@@ -19,3 +19,7 @@ npm install
 ```
 npm start
 ```
+# Other options
+npm test  -  start the unit tests with jest
+npm run build  -  build the aplication for production
+```

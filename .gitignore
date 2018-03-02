@@ -1,0 +1,10 @@
+public/*
+
+#npm dependencies
+node_modules
+
+#coverage or the tests
+coverage
+
+# Mac files
+.DS_Store
