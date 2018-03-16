@@ -79,6 +79,7 @@ module.exports = env => {
       "react/lib/ReactContext": "react",
       "react-addons-test-utils": "react-dom"
     },
+    devtool:"source-map",
     devServer: {
       contentBase: publicPath,
       noInfo: true,
