@@ -1,0 +1,33 @@
+.container-home{
+  .container{
+    width: 1350px;
+  }
+  background-color: #f5ecec !important;
+  border-color: darken(#f5ecec, 10%) !important;
+  .goHome{
+    display: flex;
+    flex-flow: row nowrap;
+
+    .image{
+      width: 40px;
+      height: 40px;
+      margin-top: -5%;
+    }
+
+    & a{
+      font-size: 25px !important;
+      color: #653030 !important;
+      text-decoration: none;
+      margin-left: 30px
+    }
+  }
+
+  .nav-items{
+    font-size: 20px !important;
+    margin-right: 30px;
+    & a {
+      color: #653030 !important;
+
+    }
+  }
+}
