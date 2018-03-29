@@ -1,6 +1,8 @@
 import React from 'react';
 import { Navbar, NavItem, Nav } from 'react-bootstrap';
 import Butterfly from '../../assets/icons/butterfly.svg';
+//import SingIn from '../SingIn pannel/SingIn';
+//import Registration from '../Registration pannel/Registration';
 import './Navbar.scss';
 
 export default class NavBar extends React.Component {
