@@ -84,7 +84,7 @@ module.exports = env => {
       contentBase: publicPath,
       noInfo: true,
       historyApiFallback: {
-        index: "index.html"
+        index: "/index.html"
       }
     }
   };

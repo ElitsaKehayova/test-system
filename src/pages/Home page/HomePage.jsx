@@ -9,23 +9,16 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-          {/* <nav role="nav">
-            <a href={'/'}> Тестове </a>
-            <a href={'/signin'}> Вход </a>
-            <a href={'/registration'}> Регистрация </a>
-          </nav> */}
         <Router>
           <div>
             <NavBar />
             <Switch>
-              <Route exact path='/'/>
-              <Route exact path='/login' component={SignIn} />
-              <Route exact path='/register' component={Registration} />
+              <Route exact path='/' />
+              <Route path='/login' component={SignIn} />
+              <Route path='/register' component={Registration} />
             </Switch>
           </div>
-
         </Router>
-
       </div>
     );
   }
