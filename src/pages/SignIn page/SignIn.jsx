@@ -1,7 +1,7 @@
 import React from 'react';
 import { Form, FormGroup, Col, Button, FormControl, ControlLabel } from 'react-bootstrap';
 import Butterfly from '../../assets/icons/butterfly.svg';
-import './SingIn.scss';
+import './SignIn.scss';
 
 export default class SingIn extends React.Component {
   render() {

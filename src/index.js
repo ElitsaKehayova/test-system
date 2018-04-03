@@ -1,7 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from './App';
+import HomePage from './pages/Home page/HomePage';
 import 'bootstrap/dist/css/bootstrap.css';
-import './index.css';
 
-ReactDOM.render(<App />, document.getElementById('root'));
+ReactDOM.render(<HomePage />, document.getElementById('root'));
