@@ -1,8 +1,8 @@
 {
-  "name": "totem-javascript-fs",
+  "name": "javascript-fs",
   "version": "1.0.0",
   "description": "Starter kit pour test technique fullstack Javascript",
-  "author": "Totem / Ingima / Nikolai Asparuhov",
+  "author": " Elitsa Kehayova",
   "license": "MIT",
   "engines": {
     "node": "8.6.0",
@@ -50,7 +50,8 @@
   "dependencies": {
     "bootstrap": "^3.3.7",
     "react": "^16.2.0",
-    "react-dom": "^16.2.0"
+    "react-dom": "^16.2.0",
+    "react-native": "^0.55.0"
   },
   "devDependencies": {
     "babel": "^6.23.0",
